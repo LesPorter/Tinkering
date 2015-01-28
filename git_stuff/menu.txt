@@ -3,6 +3,7 @@ Dinner Menu
 Main course:
 - Bacon
 - More bacon
+- Third plate of bacon
 
 Dessert:
 - Milkshake
