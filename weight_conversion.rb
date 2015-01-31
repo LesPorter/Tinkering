@@ -13,7 +13,7 @@ until user_input == "valid"
   pounds = gets.to_f 
 
   if pounds <= 0 then
-    puts "Does not compute. Please enter a weight greater than 0."
+    puts "ERROR: Please enter a weight greater than 0."
     user_input = "invalid"
   else
     user_input = "valid"
