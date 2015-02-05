@@ -16,6 +16,14 @@ class Person
   
 end
 
+class Teacher < Person
+  
+end
+
+prof = Teacher.new("Myra","Guy")
+prof.say_something
+puts " " # Need some space
+
 paula = Person.new("Paula", "Paul")
 puts paula.full_name + " says... "
 paula.say_something
