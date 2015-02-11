@@ -46,7 +46,7 @@ puts "Fifth loop uses **each**"
 bottles_array = (0..99).to_a  #Created an array of 0-99
 bottles_array.each do |nnnnn|
   # Limit what outputs so I can see all of the loops
-  if nnnnn > 97 || nnnnn < 3
+  if nnnnn > 97 || nnnnn < 3  # I need to figure out why this is the only one that puts 97
     puts "#{99-nnnnn} bottles of beer on the wall."
   end
 end
