@@ -4,8 +4,8 @@ puts " "
 puts "What's your name?"
 name = gets.chomp
 
-again = "yes"
-while again != "no" do
+answer = "yes"
+while answer != "no" do
   puts "What is your favorite place?"
   fav_place = gets.chomp
   puts "What body part you could do without for the right price?"
@@ -54,7 +54,7 @@ while again != "no" do
   puts " "
   puts " "
   puts "Want to play again?"
-  again = gets.chomp
+  answer = gets.chomp
 end
 puts " "
 puts "Good bye."
