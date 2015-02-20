@@ -33,7 +33,7 @@ while answer != "no" do
   puts " "
   puts "Michael Jackson's Beat It - Remixed by " + name
   puts "----------------------------------"
-  puts "They Told " + name + " Don't You Ever Come Around The " + fav_place
+  puts "They Told " + name + " Don't You Ever Come Around " + fav_place
   puts "Don't Wanna See Your " + body_part + ", You Better Disappear"
   puts "The Fire's In Their " + kitchen_object + " And Their Words Are Really " + book_bag
   puts "So Beat It, Just Beat It"
