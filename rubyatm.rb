@@ -1,4 +1,4 @@
-def atm_choice(user_choice, balance)
+def atm_choice(user_choice, balance, name)
   case user_choice
     when "1"
       puts "How much is your withdrawal?"
@@ -13,7 +13,7 @@ def atm_choice(user_choice, balance)
     when "3"
       puts "Your balance is $" + @balance.to_s
     when "exit"
-      puts "Goodbye."
+    puts "Goodbye " + name + "."
   end
 end
 
@@ -33,5 +33,5 @@ until user_choice == "exit"
   puts "  * Enter 3 to check your balance"
   puts "  * Enter exit to leave the Ruby ATM"
   user_choice = gets.chomp.downcase
-  atm_choice(user_choice, @balance)
+  atm_choice(user_choice, @balance, name)
 end
